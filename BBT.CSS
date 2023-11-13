@@ -1,0 +1,85 @@
+a{
+	all :unset;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+ }
+body {
+	background-image: url("Team_table_2.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	background-color: #599191; 
+	font-family: Verdana, sans-serif; 
+	font-size: 100%;
+ }
+h1 {
+	display: none;
+	font-size: 200%; 
+	color: white; 
+	text-align: center;
+ }
+#menu {
+	margin-top: 18%;
+	width: 100%;
+}
+.mphoto {
+	display: inline;
+	margin-left: 0.8%;
+}
+.mphotop {
+	display: inline-block;
+	margin-left: 5%;
+	width: 10%;
+}
+p {
+	background-color: white;
+	text-align: center;
+	margin: 20px 25% 0 25%;
+	padding: 30px;
+}
+#ficheperso {
+	background-color: white;
+	padding: 30px;
+	margin: 20px 8% 20px 8%;
+	background-image: url("background.png");
+	background-position: right bottom;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	text-align: left;
+	border-left: 10px #90b5b5 solid;
+	border-radius: 0 10px 10px 0;
+	vertical-align: top;
+	overflow: hidden;
+}
+#nom {
+	all: unset;
+	display: block;
+	padding: 3% 3% 3% 10%;
+	font-size: 250%;
+	width: 1000%;
+	color: white;
+	font-family: impact;
+	text-transform: uppercase;
+	font-weight: 300;
+	background-color: #90b5b5;
+
+}
+#profil{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+}
+#ficheperso div {
+	display: inline-block;
+}
+#ficheperso div ul {
+	list-style: none;
+	width: 100%;
+	margin-left: 0;
+	line-height: 200%;
+	font-size: 150%;
+	padding: 0 0 0 10%;
+	font-weight: 400;
+}
